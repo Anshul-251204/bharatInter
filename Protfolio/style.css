@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ------------helper class---------------->>>>> */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+.btn{
+    padding: .7rem 1.2rem;
+    border-radius: .6rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: #068FFF;
+    border: none;
+    color : white;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.btn:hover{
+    background-color: #0a67b3;
+}
+
+
+/* -------------Navigation---------------- */
+
+.nav{  
+    /* background-color: #068fff40; */
+    border-radius: 1rem;
+    padding-top:  1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-self: center;
+}
+.nav-name{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.anchor {
+    font-size: 1.5rem;
+    gap: 2rem;
+    list-style: none;
+    font-weight: 500;
+    align-items: center;
+
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+#nav-a{
+    color: white;
+}
+
+
+/* -------------- hero section --------->>>>>>> */
+.main-1{
+    margin-top: 4rem;
+    gap: 10%;
+    margin-bottom: 8rem;
+}
+.text-1{
+    flex-basis: 50%;
+    padding-left: 1rem;
+    /* background-color: aqua; */
+}
+.heading-1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 3rem 0;
+}
+.para-1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    opacity: .7;
+
+}
+
+.img-1{
+    flex-basis: 40%;
+    /* background-color: aquamarine; */
+    
+}
+.img-1 img{
+    height: 32rem;
+    transition: all 0.5s ease-in-out;
+}
+.img-1 img:hover{
+    scale: 1.1;
+    
+}
+
+
+
+/* -------------- section - 2--------->>>>>>> */
+
+.main-2{
+    margin-top:rem;
+    gap: 10%;
+    margin-bottom: 8rem;
+
+}
+.text-2{
+    flex-basis: 50%;
+}
+.img-2{
+    flex: 40%;
+}
+.heading-2{
+    color: #068FFF;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.name{
+    color: #068FFF;
+    font-size: 2.5rem;
+    font-weight: 500;
+    
+
+}
+.para-2{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: gray;
+}
+.img-2 img{
+    height: 32rem;
+    transition: all 0.5s ease-in-out;
+}
+.img-2 img:hover{
+    scale: 1.1;
+    
+}
+
+
+/* -------------- section - 3 --------->>>>>>> */
+.main-3{
+    background-color: #008afc4a;
+    padding: 2rem;
+}
+.heading-3{
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: #068FFF;
+    font-weight: 500;
+}
+.para-3{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #0a67b3;
+    font-weight: 500;
+}
+
+.toolbox{
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    row-gap: 6rem;
+}
+.innerbox{
+    flex-basis: 20%;
+}
+.icon-img{
+    height: 10rem;
+}
+.icon-para{
+    font-weight: 500;
+}
+
+
+/* -------------- section - 3 --------->>>>>>> */
+
+.heading-4{
+    margin-top: 4rem;
+    font-size: 3rem;
+    color: #068FFF;
+}
+.project-box{
+    margin-top: 4rem;
+    height: 70vh;
+}
+.card{
+    border-radius: 10px;
+    border: 2px solid black;
+    flex-basis: 30%;
+    padding: 1rem;
+    height: 10rem;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: .6;
+}
+.card button{
+    margin-top: 1rem;
+    border: none;
+    border-radius: .7rem;
+    padding: .7rem 1rem;
+    margin-left: 55%;
+    color: white;
+    background-color: #008afc4a;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.arrow{
+    margin-left: .5rem;
+    color: black;
+}
+.main-5{
+    height: 76vh;
+}
+.chat-box{
+    background-color:  #008afc4a;
+    height: 70vh;
+    margin-top: 4rem;
+    
+}
+.chat{
+    background-color: #5fb4fa;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.para-5{
+    font-size: 2rem;
+    color: #08375e;
+    font-weight: 600;
+
+}
+.heading-5 , .heading-5-2{
+    font-size: 4rem;
+    color: #08375e;
+
+}
+.form{
+   width: 60%;
+   height: 80%;
+   margin-top: 10%;
+   margin-left: 20% ;
+   gap: 2rem;
+   flex-direction: column;
+
+}
+.labal{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    margin-bottom: 2rem;  
+}
+.in-put{
+    font-family: 'Montserrat', sans-serif;
+    height: 3rem;
+    width: 27rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: .7rem;
+    margin-top: .5rem;
+}#message{
+    border: none;
+    border-radius: .7rem;
+    height: 10rem;
+    width: 27rem;
+}
+
+.hit-btn{
+    color: white;
+    background-color: #08375e;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 4rem;
+}
+
+
